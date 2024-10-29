@@ -1,6 +1,5 @@
 package varEOperadores;
 
-import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class ExerSwitch4 {
@@ -15,7 +14,6 @@ public class ExerSwitch4 {
 		 *      diferente do intervalo 1 a 3, mostre a mensagem Operação Inválida!
 */ 
 		Scanner leia = new Scanner(System.in);
-		DecimalFormat df = new DecimalFormat("#.##");
 		
 		int option;
 		float depo, conta = 1000, val, joker;
