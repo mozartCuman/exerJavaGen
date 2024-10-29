@@ -12,6 +12,8 @@ public class Exercicio2 {
 		Scanner leia = new Scanner(System.in);
 		DecimalFormat df = new DecimalFormat("#.##");
 		
+		float alun1, alun2, alun3, alun4, media;
+		
 		System.out.print(" Programa de Média básico");
 		System.out.print("\n ***************************************");
 		System.out.print("\n Qual o nome do aluno?: ");
@@ -20,15 +22,15 @@ public class Exercicio2 {
 		
 		
 		System.out.print("\n Primeira nota: ");
-		float alun1 = leia.nextFloat();
+		alun1 = leia.nextFloat();
 		System.out.print("\n Segunda nota: ");
-		float alun2 = leia.nextFloat();
+		alun2 = leia.nextFloat();
 		System.out.print("\n terceira nota: ");
-		float alun3 = leia.nextFloat();
+		alun3 = leia.nextFloat();
 		System.out.print("\n Média do segundo aluno: ");
-		float alun4 = leia.nextFloat();
+		alun4 = leia.nextFloat();
 		
-		float media = (alun1 + alun2 + alun3 + alun4) / 4;
+		media = (alun1 + alun2 + alun3 + alun4) / 4;
 		
 		System.out.print("\n O aluno "+ nome + " teve a média: ");
 		System.out.println(df.format(media));
