@@ -16,7 +16,7 @@ public class ExerSwitch4 {
 		Scanner leia = new Scanner(System.in);
 		
 		int option;
-		float depo, conta = 1000, val, joker;
+		float conta = 1000, val, joker;
 		
 		System.out.println("* 1  | Saldo");
 		System.out.println("* 2  | Saque");
