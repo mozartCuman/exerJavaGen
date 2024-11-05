@@ -38,7 +38,7 @@ public class ExerPilha {
 
 			if (seletor == 1) {
 				System.out.print(" Nome do livro: ");
-				
+				leia.skip("\\R?");
 				livros.push(leia.nextLine());
 				
 				

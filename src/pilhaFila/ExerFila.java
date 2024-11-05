@@ -18,7 +18,6 @@ public class ExerFila {
 		 */
 		Scanner leia = new Scanner(System.in);
 		Queue<String> filaBanco = new LinkedList<String>();
-		String coringa;
 		int escolha, fatal = 1;
 
 		System.out.println("**************************************************");
@@ -37,6 +36,7 @@ public class ExerFila {
 			switch (escolha) {
 			case 1:
 				System.out.print("\n Nome: ");
+				leia.skip("\\R?");
 				filaBanco.add(leia.nextLine());
 				System.out.println("Adicionado com sucesso...");
 				break;
@@ -64,13 +64,13 @@ public class ExerFila {
 					System.out.println("\n**************************************************");
 					if (filaBanco.isEmpty() == true) {
 						System.out.println("\n A fila esta vazia... \n");
-						
-					}else {
+
+					} else {
 						System.out.println("Nova fila:\n");
 						for (String x : filaBanco) {
 							System.out.println("-" + x);
-						} 
-						
+						}
+
 					}
 					System.out.println("**************************************************");
 
