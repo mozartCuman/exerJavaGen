@@ -25,6 +25,7 @@ public class Exercicio1 {
 		System.out.print(" Quantos meses o funcionário trabalhou "
 				+ "para podermos calcular o abono salarial???: ");
 		float abon = leia.nextFloat();
+		leia.close();
 		
 		float abonII = (sala * abon)/12;
 		

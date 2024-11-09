@@ -26,6 +26,7 @@ public class Exercicio3 {
 		System.out.print(" Digite os descontos: ");
 		float desc = leia.nextFloat();
 		float liquido = sal + adic + (extr * 5) - desc;
+		leia.close();
 		
 		System.out.println("*****************************************************");
 		System.out.println("\n O salário liquido de: "+ nome + " é:" + df.format(liquido) + " ...");

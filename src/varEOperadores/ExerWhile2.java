@@ -8,7 +8,7 @@ public class ExerWhile2 {
 		//Exercicio 4 da apostila 3, While (Generation).
 		Scanner leia = new Scanner(System.in);
 		
-		byte master = 0 , gener = 0, mCis = 0, hCis = 0, nBin = 0, mTra = 0, hTra = 0, outr =0, desen = 0, bEnd = 0, fEnd = 0, mobi = 0, full = 0, idade, wwFront = 0;
+		byte master = 0 , gener = 0, mCis = 0, hCis = 0, nBin = 0, mTra = 0, hTra = 0, outr =0, desen = 0, bEnd = 0, fEnd = 0, mobi = 0, idade, wwFront = 0, full = 0;
 		byte shMobile = 0, nbFull = 0, cont = 0;
 		float idadeM = 0;
 		boolean fim = true;

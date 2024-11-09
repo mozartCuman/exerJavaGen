@@ -39,6 +39,8 @@ public class ExerSwitch1 {
 		System.out.print(" Digite o quantidade de produto: ");
 		qtd = leia.nextInt();
 		
+		leia.close();
+		
 		switch(code) {
 		case 1: 
 			mult = qtd * 10;

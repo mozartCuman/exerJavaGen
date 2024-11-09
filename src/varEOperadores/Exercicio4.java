@@ -23,6 +23,8 @@ public class Exercicio4 {
 		float desc = leia.nextFloat();
 		float liquido = (sal * adic) - (extr * desc);
 		
+		leia.close();
+		
 		System.out.print(" O produto de + n1 + n2 + n3 + n4, é: " + liquido);
 	}
 

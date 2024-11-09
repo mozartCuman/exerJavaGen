@@ -30,6 +30,8 @@ public class Exercicio2 {
 		System.out.print("\n Média do segundo aluno: ");
 		alun4 = leia.nextFloat();
 		
+		leia.close();
+		
 		media = (alun1 + alun2 + alun3 + alun4) / 4;
 		
 		System.out.print("\n O aluno "+ nome + " teve a média: ");
